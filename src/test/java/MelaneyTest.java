@@ -23,7 +23,7 @@ public class MelaneyTest {
     
     @Test(timeout = 50)
     public void TestGetMaxSpeed() {
-        assertEquals(0.25, h.getMaxSpeed());
+        assertEquals(1, h.getMaxSpeed());
     }
     
     @Test(timeout = 50)
