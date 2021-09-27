@@ -33,4 +33,8 @@ public class TankTest {
         assertEquals(2, t.getMaxSpeed());
     }
 
+    @Test(timeout = 50)
+    public void TestGetPrice() {
+        assertEquals(100, t.getPrice());
+    }
 }
