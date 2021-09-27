@@ -35,7 +35,7 @@ public class TankTest {
     
     @Test(timeout = 50)
     public void TestGetPrice() {
-        assertEquals(10, h.getPrice());
+        assertEquals(100, t.getPrice());
     }
 
 }
