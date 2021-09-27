@@ -97,6 +97,7 @@ public class Trader {
                 new Horse(),
                 new Horse(),
                 new Horse(),
+                new Tank(),
                 new Buffalo()
                 // TODO: Add Tradable objects here!
         );
